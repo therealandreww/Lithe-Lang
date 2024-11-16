@@ -1,3 +1,6 @@
 Lithe.xcodeproj*
 Lithe.xcodeproj/*
 Lithe.xcodeproj/
+*.pbxproj
+*.plist
+*.xcworkspacedata
