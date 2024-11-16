@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		7C86B3C82CE8C62B00C762E3 /* Lithe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lithe; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C86B3D22CE8C86600C762E3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +47,7 @@
 			children = (
 				7C86B3CA2CE8C62B00C762E3 /* Lithe */,
 				7C86B3C92CE8C62B00C762E3 /* Products */,
+				7C86B3D22CE8C86600C762E3 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
