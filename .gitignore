@@ -10,3 +10,5 @@ CMakeFiles/
 CMakeFiles/*
 .vscode/
 .vscode/*
+bin/
+build/

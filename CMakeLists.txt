@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.11)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ./bin)
 
 project(
     LitheLang
@@ -10,4 +11,4 @@ file(GLOB SOURCES
     src/*.h
     src/*.cpp
 )
-add_executable(program src/main.cpp)
+add_executable(lithe src/main.cpp)

@@ -1,6 +1,8 @@
 #include <iostream>
 
-using std::cout, std::cin, std::string;
+using std::cout;
+using std::cin;
+using std::string;
 
 int main(int argc, const char * argv[]) {
     std::cout << "Hello, World!\n";
