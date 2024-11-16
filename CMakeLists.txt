@@ -9,6 +9,8 @@ project(
 
 file(GLOB SOURCES
     src/*.h
+    src/*.c
     src/*.cpp
+    src/*.hpp
 )
 add_executable(lithe src/main.cpp)
