@@ -12,5 +12,10 @@ file(GLOB SOURCES
     src/*.c
     src/*.cpp
     src/*.hpp
+    src/lextypes/*.h
+    src/lextypes/*.c
+    src/lextypes/*.cpp
+    src/lextypes/*.hpp
 )
+
 add_executable(lithe src/main.cpp)
