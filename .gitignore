@@ -4,3 +4,9 @@ Lithe.xcodeproj/
 *.pbxproj
 *.plist
 *.xcworkspacedata
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+CMakeFiles/*
+.vscode/
+.vscode/*
