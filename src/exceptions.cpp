@@ -1,4 +1,6 @@
 #include <iostream>
+#include "exceptions.hpp"
+#include "termcolor.hpp"
 
 using std::cin;
 using std::cout;
@@ -7,11 +9,22 @@ using std::endl;
 
 class l_error {
     private:
-        enum {
-            END_LITHE_PROGRAM = 1,
-            KILL_SWITCH = 1
-        };
+        // end_lithe_program overrides yield_message, and immediately kills the program
+        bool end_lithe_program = true;
+        bool show_message = true;
+        bool yield_message = false;
 
     public:
-        string description;
+        auto report(string description);
 };
+
+auto l_error::report(string description) {
+    if (show_message) {
+        // Print description
+        cout << termcolor::red << "[ERR] " << description << termcolor::reset << endl;
+    }
+    if (end_lithe_program) {
+        exit(1);
+    }
+    if (yield_message) { return description; }
+}
