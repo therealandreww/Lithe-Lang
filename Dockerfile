@@ -9,4 +9,4 @@ RUN apt-get -y install make
 RUN apt update
 RUN apt-get update
 
-CMD ["bash"]
+CMD ["sh"]
